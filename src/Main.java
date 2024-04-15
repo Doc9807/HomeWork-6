@@ -53,8 +53,8 @@ public class Main {
 
         System.out.println("\nTask 9");
         for (int i = 1, money = 29000; i <= 12; i++, money += 29000) {
-            money *= 1.01;
             System.out.printf("«Месяц %s, сумма накоплений равна %s рублей».%n", i, money);
+            money *= 1.01;
         }
 
         System.out.println("\nTask 10");
